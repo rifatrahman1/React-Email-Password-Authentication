@@ -53,8 +53,8 @@ const Sign_up = () => {
                 </button>
                 <div className='form-control'>
                     <label className='label justify-start cursor-pointer'>
-                        <input type="checkbox" name="terms" className='checkbox' id="" />
-                        <span className='lable-text ml-2'>Accept Our Terms and Condition..</span>
+                        <input type="checkbox" name="terms" className='' id="" />
+                        <span className='lable-text ml-2 text-red-500 mb-2'>Accept Our Terms and Condition..</span>
                     </label>
                 </div>
                 <button type="submit" className="btn btn-primary btn-block btn-large">Sign Up</button>
